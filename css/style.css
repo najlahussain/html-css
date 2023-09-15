@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:wght@700&display=swap');
+
+body {
+    /* CSS reset; */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/background.jpg');
+    background-size: 100%;
+}
+.header {
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    width : 100%;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.cName{
+    padding-left: 3px;
+    float: right;
+    color: orangered;
+    font-size: large;
+    text-decoration: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.mid {
+    display: inline-block;
+    margin: 0px 27%;
+    padding: 6px;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: inline-block;
+    font-family: 'Roboto';
+    color: white;
+    padding: 2px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    cursor: pointer;
+    color: grey;
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    right: 20px;
+}
+.btn{
+    padding: 10px;
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    margin: 3px;
+    border-radius: 9px;
+    border-color: orangered;
+}
+.btn:hover {
+    color: rgb(113, 53, 30);
+    cursor: pointer;
+}
+.container {
+   background-color: black;
+   position: relative;
+   top: 100px;
+   left: 120px;
+   display: inline-block;
+   padding: 3%;
+   border-radius: 20px;
+   border-color: white;
+   width : 25%;
+   align-items: center;
+}
+.register-heading {
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.form-group {
+    padding: 5px;
+    font-family: 'Inclusive Sans', sans-serif;
+    align-self: center;
+}
+.container button {
+    align-self: center;
+}
+.form-group input {
+    display: block;
+    float: right;
+    width: 200px;
+}
+footer {
+    display: block;
+    background-color: black;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+}
+footer p{
+    text-align: center;
+}
